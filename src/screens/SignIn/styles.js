@@ -1,5 +1,5 @@
-import styled from "styled-components";
+import styled from "styled-components/native";
 
-const Container = styled.div`
+export const Container = styled.SafeAreaView`
     
 `;
