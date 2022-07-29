@@ -1,4 +1,3 @@
-import { Text } from 'react-native';
 import { 
   Container, 
   InputArea,
@@ -8,6 +7,9 @@ import {
   SignMessageButtonText,
   SignMessageButtonTextBold
 } from './styles' ;
+
+import { EmailIcon } from "../assets/email.svg";
+import { LockIcon } from "../assets/lock.svg";
 
 import { SignInput } from '../../components/SignInput';
 

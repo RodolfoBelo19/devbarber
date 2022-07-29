@@ -1,10 +1,9 @@
-import { Text } from "react-native";
-import { InputArea } from "../../screens/SignIn/styles";
+import { InputArea } from "./styles.js";
 
-export const SignInput = () => {
+export const SignInput = ({ IconSvg }) => {
   return (
     <InputArea>
-      <Text>Teste</Text>
+      {/* <IconSvg width="24" height="24"/> */}
     </InputArea>
   );
 }
